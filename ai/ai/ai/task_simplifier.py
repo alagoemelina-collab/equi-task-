@@ -286,3 +286,4 @@ def simplify_task(request: Dict[str, Any]) -> Dict[str, Any]:
         task_id,
         "The task could not be processed. Use this starter checklist.",
         generic_template(task_type),
+    )
